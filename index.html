@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kviz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="select">
+        <div id="question">  
+            <h1>Izaberi oblast kviza</h1>    
+        </div>
+        <div id="questionAnswer">
+            <button id="sport" class="btn">Sport</button>
+            <button id="it" class="btn">IT</button>
+            <button id="istorija" class="btn">Istorija</button>
+        </div>  
+    </div>  
+
+    <div id="wrapp">
+        <div class="quiz">
+            <header>
+                <h2>Mesto za pitanje</h2>
+            </header>
+            <main>
+                <div class="option">Odgovor 1</div>
+                <div class="option">Odgovor 2</div>
+                <div class="option">Odgovor 3</div>
+                <div class="option">Odgovor 4</div>
+            </main>
+            <div id="footer"></div>
+            <!-- <div id="restart"> -->
+            <!-- </div> -->
+        </div>
+        <div id="startQuiz">
+            <button id="move" class="btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
